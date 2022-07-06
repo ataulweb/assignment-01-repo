@@ -1,68 +1,135 @@
-.middle-content{
+.middle-content {
     max-width: 900px;
     margin: auto;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.header-section{
+.header-section {
     background-image: url(./images/donation9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 140px 0;
-    
+    background-attachment: fixed;
+    padding: 170px 0;
+
 }
 
-.heading-1{
+.heading-1 {
     font-size: 60px;
     text-align: center;
     font-weight: 750;
     color: rgba(9, 231, 243, 0.975);
     line-height: 0rem;
-    
+
 }
 
-.heading-2{
+.heading-2 {
     font-size: 60px;
     text-align: center;
     font-weight: 750;
     color: rgba(9, 231, 243, 0.975);
 }
-.heading-3{
+
+.heading-3 {
     font-size: 20px;
     text-align: center;
     color: white;
     font-weight: 400;
 }
 
-a{
+a {
     text-decoration: none;
     font-weight: 600;
     color: #fff;
-    padding: 15px 22px;
     text-align: center;
-    padding: 12px 25px;
+    padding: 18px 27px;
     border-radius: 5px;
     background-image: linear-gradient(orange, tomato);
 }
 
-.header-btn{
+.header-btn {
     text-align: center;
+    margin: 40px;
 }
 
-.donate-section{
-    margin-top: 100px;
+.donate-section {
+    margin-top: 13vh;
 }
-.donate-heading{
+
+.donate-heading {
     font-size: 35px;
     text-align: center;
     font-weight: 700;
 }
 
-.donate-p{
+.donate-p {
     text-align: center;
     color: rgb(121, 111, 111);
+}
+
+.price-tag {
+    display: flex;
+    padding: 40px;
+
+}
+
+.price-100 {
+    background-color: rgb(230, 224, 224);
+    padding: 40px;
+    font-size: 25px;
+    margin-right: 10px;
+    font-weight: 600;
+    color: rgba(72, 70, 70, 0.831);
+    border-radius: 5px;
+}
+
+.price-200 {
+    background-color: rgb(230, 224, 224);
+    padding: 40px;
+    font-size: 25px;
+    margin-right: 10px;
+    font-weight: 600;
+    color: rgba(186, 59, 59, 0.831);
+    border: 2px solid rgba(186, 59, 59, 0.831);
+    border-radius: 5px;
+}
+
+.price-500 {
+    background-color: rgb(230, 224, 224);
+    padding: 40px;
+    font-size: 25px;
+    margin-right: 10px;
+    font-weight: 600;
+    color: rgba(72, 70, 70, 0.831);
+    border-radius: 5px;
+}
+
+.price-1000 {
+    background-color: rgb(230, 224, 224);
+    padding: 40px;
+    font-size: 25px;
+    margin-right: 10px;
+    font-weight: 600;
+    color: rgba(72, 70, 70, 0.831);
+    border-radius: 5px;
+}
+
+.price-5000 {
+    background-color: rgb(230, 224, 224);
+    padding: 40px;
+    font-size: 25px;
+    margin-right: 10px;
+    font-weight: 600;
+    color: rgba(72, 70, 70, 0.831);
+    border-radius: 5px;
+}
+
+.text-area{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(133, 133, 121);
+    margin: 20px;
 }
