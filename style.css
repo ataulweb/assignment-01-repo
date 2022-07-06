@@ -121,7 +121,6 @@ a {
     background-color: rgb(230, 224, 224);
     padding: 40px;
     font-size: 25px;
-    margin-right: 10px;
     font-weight: 600;
     color: rgba(72, 70, 70, 0.831);
     border-radius: 5px;
@@ -132,4 +131,55 @@ a {
     font-size: 20px;
     color: rgb(133, 133, 121);
     margin: 20px;
+}
+
+.planing-section{
+    margin: 80px;
+
+}
+.planing-heading{
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+}
+
+.planing-text{
+    color: rgb(121, 111, 111);
+    text-align: center;
+}
+
+.planing-box{
+    display: flex;
+    margin-top: 08vh;
+}
+
+.box-1{
+    padding: 17px 35px;
+    background-color: rgba(196, 238, 249, 0.490);
+    margin-right: 25px;
+    border-radius: 10px;
+}
+.box-2{
+    padding: 17px 35px;
+    background-color: rgba(236, 197, 236, 0.490);
+    margin-right: 25px;
+    border-radius: 10px;
+}
+.box-3{
+    padding: 17px 35px;
+    background-color: rgba(239, 239, 209, 0.490);
+    border-radius: 10px;
+}
+
+.box-1text{
+    color: rgb(121, 111, 111);
+    font-size: 15px;
+}
+.box-2text{
+    color: rgb(121, 111, 111);
+    font-size: 15px;
+}
+.box-3text{
+    color: rgb(121, 111, 111);
+    font-size: 15px;
 }
