@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 .header-section {
@@ -205,5 +206,64 @@ text-align: center;
     border: 1px solid #ddd;
     border-radius: 6px;
     padding: 5px;
-    width: 150px;
+    width: 100%;
+}
+
+.subscribe-heading{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: blue;
+}
+
+.subscribe-text{
+    color: rgb(121, 111, 111);
+    text-align: center;
+    width: 60%;
+    margin-left: 30vh;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-box{
+    padding: 10px;
+    border-radius: 5px;
+    background: wheat;
+    box-shadow: 10px 10px 15px blue;
+}
+.form-box input {
+    font-size: 18px;
+    color: #000;
+    height: 25px;
+    border: none;
+    background: #992424;
+}
+.form-box button {
+    color: rgb(42, 24, 24);
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #4769d8;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 10vh;
+    background-color: rgba(86, 5, 5, 0.786);
+    padding: 40px 200px;
+    margin: 40px -8px 0 -8px;
+}
+
+.footer-icon{
+    font-size: 15px;
+    text-align: right;
+}
+
+.footer-text{
+    color: orange;
 }
