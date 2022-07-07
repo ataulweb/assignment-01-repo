@@ -37,8 +37,8 @@ body {
 .heading-3 {
     font-size: 20px;
     text-align: center;
-    color: white;
-    font-weight: 400;
+    color: whitesmoke;
+    font-weight: 700;
 }
 
 a {
@@ -64,6 +64,7 @@ a {
     font-size: 35px;
     text-align: center;
     font-weight: 700;
+    color: rgba(79, 28, 9, 0.965);
 }
 
 .donate-p {
@@ -142,6 +143,7 @@ a {
 font-size: 40px;
 font-weight: 700;
 text-align: center;
+color: rgba(79, 28, 9, 0.965);
 }
 
 .planing-text{
@@ -189,7 +191,7 @@ text-align: center;
 }
 
 .news-bold{
-    color: rgba(241, 58, 58, 0.779);
+    color: rgba(18, 4, 165, 0.459);
     font-size: 18px;
 }
 
@@ -197,10 +199,11 @@ text-align: center;
     font-size: 25px;
     font-weight: 800;
     text-align: center;
+    color: rgba(79, 28, 9, 0.965);
 }
 
 .update-section{
-    padding: 20px;
+    margin: 6em;
 }
 .update-img{
     border: 1px solid #ddd;
@@ -213,7 +216,7 @@ text-align: center;
     font-size: 40px;
     font-weight: 700;
     text-align: center;
-    color: blue;
+    color: rgba(79, 28, 9, 0.965);
 }
 
 .subscribe-text{
@@ -224,6 +227,7 @@ text-align: center;
 }
 
 .box{
+    padding-bottom: 7em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,13 +235,13 @@ text-align: center;
 
 input {
     font-size: 18px;
-    color: #000;
+    color: rgba(0, 0, 0, 0.511);
     height: 50px;
     border-radius: 5px;
     border: none;
 }
 button {
-    color: rgb(42, 24, 24);
+    color: white;
     padding: 15px 20px;
     font-size: 20px;
     border: none;
@@ -247,12 +251,11 @@ button {
 }
 
 form{
-    background: wheat;
-    padding: 3em 12em;
+    background: rgba(245, 222, 179, 0.711);
+    padding: 4em 11em;
 
 }
 .footer{
-    margin-top: 10vh;
     background-color: rgba(86, 5, 5, 0.786);
     padding: 40px 200px;
     margin: 40px -8px 0 -8px;
@@ -265,4 +268,5 @@ form{
 
 .footer-text{
     color: orange;
+    font-size: 17px;
 }
