@@ -229,29 +229,28 @@ text-align: center;
     justify-content: center;
 }
 
-.form-box{
-    padding: 10px;
-    border-radius: 5px;
-    background: wheat;
-    box-shadow: 10px 10px 15px blue;
-}
-.form-box input {
+input {
     font-size: 18px;
     color: #000;
-    height: 25px;
+    height: 50px;
+    border-radius: 5px;
     border: none;
-    background: #992424;
 }
-.form-box button {
+button {
     color: rgb(42, 24, 24);
     padding: 15px 20px;
     font-size: 20px;
     border: none;
     border-radius: 5px;
-    background: #4769d8;
+    background: tomato;
     cursor: pointer;
 }
 
+form{
+    background: wheat;
+    padding: 3em 12em;
+
+}
 .footer{
     margin-top: 10vh;
     background-color: rgba(86, 5, 5, 0.786);
